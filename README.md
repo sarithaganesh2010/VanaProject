@@ -33,10 +33,6 @@ Getting up and running for your dev-env is as easy as counting 1 to 4 :-)
     - Main class: `cucumber.api.cli.Main`       
     - Glue: `com.intermedia.qa`      
     - feature folder path: _point to folder where feature files are_  
-    - VM options: (copy the same ones from mvn example )   
     
-    p.s. Intellij has a bug with Cucumber, here's [a workaround](https://github.com/cucumber/cucumber-jvm/issues/1392)          
-    If you remove `--plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter` from program arguments in the run configuration it will work again. You'll have to do this until InteliJ fixes their plugin.  
-
  4. Chrome
  Ensure you have the latest version of Chrome installed
