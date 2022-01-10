@@ -7,14 +7,11 @@ Intermedia Cucumber Selenium Test
 Write a single feature and implement the steps so that the feature is fully runnable and passes. This feature must perform the following:
 For this task, only use the Chrome browser
 
-Go to google.co.uk in a browser
-Search for the term "ITV" and assert the URL for the top result is https://www.itv.com/
+Go to google.co.uk in a browser, Search for the term "ITV" and assert the URL for the top result is https://www.itv.com/
 
-Go to google.co.uk in a browser
-Search for the term "BBC" and assert the URL for the top result is https://www.bbc.co.uk/
+Go to google.co.uk in a browser, Search for the term "BBC" and assert the URL for the top result is https://www.bbc.co.uk/
 
-Go to google.co.uk in a browser
-Search for the term "Channel 4" and assert the URL for the top result is https://www.channel4.com/
+Go to google.co.uk in a browser, Search for the term "Channel 4" and assert the URL for the top result is https://www.channel4.com/
 
 
 Apologies if the Top Result in Google has changed since this was written. If its changed, change the assertions to match the new top result
