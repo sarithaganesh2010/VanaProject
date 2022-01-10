@@ -8,14 +8,18 @@ Write a single feature and implement the steps so that the feature is fully runn
 For this task, only use the Chrome browser
 
 Go to google.co.uk in a browser
-Search for the term "ITV" and assert the URL is for the top result is https://www.itv.com
+Search for the term "ITV" and assert the URL for the top result is https://www.itv.com/
+
 Go to google.co.uk in a browser
-Search for the term "BBC" and assert the URL is for the top result is https://www.bbc.co.uk
+Search for the term "BBC" and assert the URL for the top result is https://www.bbc.co.uk/
+
 Go to google.co.uk in a browser
-Search for the term "Channel 4" and assert the URL is for the top result is https://www.channel4.com
+Search for the term "Channel 4" and assert the URL for the top result is https://www.channel4.com/
 
 
 Apologies if the Top Result in Google has changed since this was written. If its changed, change the assertions to match the new top result
+ 
+NB: A feature file is living documentation that describes the requirement making it easy for someone to understand the scope of the story / requirement.   
 
 # Setup      
 
