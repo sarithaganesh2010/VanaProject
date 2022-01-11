@@ -20,7 +20,7 @@
         <versions.cucumber>3.0.2</versions.cucumber>
         <versions.junit>4.12</versions.junit>
         <versions.selenium>3.12.0</versions.selenium>
-        <versions.webdrivermanager>2.2.4</versions.webdrivermanager>
+        <versions.webdrivermanager>5.0.3</versions.webdrivermanager>
         <versions.assertj_core>3.10.0</versions.assertj_core>
 
         <versions.guava>25.1-jre</versions.guava>
