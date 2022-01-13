@@ -20,7 +20,7 @@ Write a second feature and implement the steps so that the feature is fully runn
 Go to google.co.uk in a browser, Search for the term "intermedia" and assert
 * the URL for the top result is http://intermedia.co.uk/ 
 * the search result title for the top result is Intermedia: Cloud IT Application Provider
-* the URL for the second result is https://intermedia.com/
+* the URL for the second result is https://www.intermedia.com/
 * the search result title for the second result is Intermedia: All-In-One Cloud Communications Platform
 
 
