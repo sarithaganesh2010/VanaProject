@@ -3,7 +3,7 @@ Intermedia Cucumber Selenium Test
 
 
 # The Task  
-
+## 1
 Write a single feature and implement the steps so that the feature is fully runnable and passes. This feature must perform the following:
 For this task, only use the Chrome browser
 
@@ -14,14 +14,22 @@ Go to google.co.uk in a browser, Search for the term "BBC" and assert the URL fo
 Go to google.co.uk in a browser, Search for the term "Channel 4" and assert the URL for the top result is https://www.channel4.com/
 
 
-Apologies if the Top Result in Google has changed since this was written. If its changed, change the assertions to match the new top result
- 
-NB: A feature file is living documentation that describes the requirement making it easy for someone to understand the scope of the story / requirement.   
+## 2
+Write a second feature and implement the steps so that the feature is fully runnable and passes. This feature must perform the following:
+
+Go to google.co.uk in a browser, Search for the term "intermedia" and assert
+* the URL for the top result is http://intermedia.co.uk/ 
+* the search result title for the top result is Intermedia: Cloud IT Application Provider
+* the URL for the second result is http://intermedia.com/
+* the search result title for the second result is Intermedia: All-In-One Cloud Communications Platform
+
+
+Apologies if the Top Result in Google has changed since this was written. If its changed, change the assertions to match the actual results
+
+   
 
 # Setup      
-
-Getting up and running for your dev-env is as easy as counting 1 to 4 :-)     
-
+ 
 1. Make sure you have Java 11 installed
     https://adoptium.net/?variant=openjdk11
 
