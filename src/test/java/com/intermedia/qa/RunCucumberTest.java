@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json", "junit:target/cucumber.xml"},
         features = "src/test/resources/feature",
-        glue = {"com.intermedia.qa.steps"})
+        glue = {"com.intermedia.qa"})
 public class RunCucumberTest {
 }

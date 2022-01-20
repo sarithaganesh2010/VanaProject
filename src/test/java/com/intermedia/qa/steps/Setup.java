@@ -25,14 +25,14 @@ public class Setup {
 
         WebDriverManager.chromedriver().setup();
         ChromeOptions browserOptions = new ChromeOptions();
-        Context.setDriver(new ChromeDriver(browserOptions));
+//        Context.setDriver(new ChromeDriver(browserOptions));
     }
 
     @After
     public static void After() {
 
-        if (Context.getDriver() != null) {
-           Context.getDriver().quit();
-        }
+//        if (Context.getDriver() != null) {
+//           Context.getDriver().quit();
+//        }
     }
 }
